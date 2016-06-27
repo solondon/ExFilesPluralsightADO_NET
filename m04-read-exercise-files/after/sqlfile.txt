@@ -1,0 +1,24 @@
+SELECT * FROM	HumanResources.Employee E 
+				JOIN Person.Person P ON E.BusinessEntityId = P.BusinessEntityId AND P.PersonType='EM'
+				JOIN HumanResources.EmployeeDepartmentHistory EH ON E.BusinessEntityId = EH.BusinessEntityId 
+				JOIN HumanResources.Department D ON D.DepartmentId = EH.DepartmentId
+WHERE E.BusinessEntityId = 1
+
+GO
+
+-- EXEC GetEmployeeDetails 1
+
+CREATE PROCEDURE GetEmployeeDetails 
+	@businessEntityId int
+AS
+
+SET NOCOUNT ON
+
+select * from HumanResources.Employee E
+			JOIN Person.Person P ON E.BusinessEntityId = P.BusinessEntityId AND P.PersonType = 'EM'
+			JOIN HumanResources.EmployeeDepartmentHistory EH ON E.BusinessEntityId = EH.BusinessEntityId
+			JOIN HumanResources.Department D ON D.DepartmentId = EH.DepartmentId
+where
+	E.BusinessEntityId = @businessEntityId
+
+GO

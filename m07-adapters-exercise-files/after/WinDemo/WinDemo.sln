@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDemo", "WinDemo\WinDemo.csproj", "{664F65F9-5BC2-4F23-9AAC-EC587DB7246D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDemo", "..\ASPDemo\ASPDemo.csproj", "{A99C88C5-FCAE-4834-A2DF-A03B8073CB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{9D95F8E9-DD6A-4E8A-BF9D-3DFDA061C8EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{664F65F9-5BC2-4F23-9AAC-EC587DB7246D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664F65F9-5BC2-4F23-9AAC-EC587DB7246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664F65F9-5BC2-4F23-9AAC-EC587DB7246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664F65F9-5BC2-4F23-9AAC-EC587DB7246D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99C88C5-FCAE-4834-A2DF-A03B8073CB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99C88C5-FCAE-4834-A2DF-A03B8073CB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99C88C5-FCAE-4834-A2DF-A03B8073CB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99C88C5-FCAE-4834-A2DF-A03B8073CB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D95F8E9-DD6A-4E8A-BF9D-3DFDA061C8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D95F8E9-DD6A-4E8A-BF9D-3DFDA061C8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D95F8E9-DD6A-4E8A-BF9D-3DFDA061C8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D95F8E9-DD6A-4E8A-BF9D-3DFDA061C8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
